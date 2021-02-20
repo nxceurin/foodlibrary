@@ -54,14 +54,6 @@ def modif(L):
 userL= []
 clear()
 
-print("Note: The dishes mentioned in the demo run are mostly fictional.")
 print("Welcome to foodLibrary! Get started by adding some ingredients to your inventory~")
-msvcrt.getch()
-modif(userL) #first run
-
-# if len(userL)==0:
-#     print("Looks like your pantry is empty. Start by adding some ingredients!")
-# else:
-#     listmod.viewpantry(userL)
-# print("number of recipes that can be made with ingredients in pantry:", recipelist.totalret(userL))
-#print(userL)
+msvcrt.getch() #wait for user input
+modif(userL) #main menu
